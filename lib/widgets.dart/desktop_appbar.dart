@@ -48,7 +48,7 @@ class DesktopAppBar extends StatelessWidget implements PreferredSizeWidget {
                         horizontal: 16,
                       ),
                       filled: true,
-                      fillColor: const Color(0xFF121212),
+                      fillColor: const Color.fromARGB(255, 242, 242, 243),
                       enabledBorder: OutlineInputBorder(
                         borderRadius: const BorderRadius.horizontal(
                           left: Radius.circular(20),
@@ -68,7 +68,7 @@ class DesktopAppBar extends StatelessWidget implements PreferredSizeWidget {
                   width: 60,
                   height: 40,
                   decoration: BoxDecoration(
-                    color: const Color(0xFF222222),
+                    color: const Color.fromARGB(255, 242, 242, 243),
                     borderRadius: const BorderRadius.horizontal(
                       right: Radius.circular(20),
                     ),

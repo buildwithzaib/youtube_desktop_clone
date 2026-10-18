@@ -10,9 +10,16 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
+      title: 'YouTube Desktop',
       debugShowCheckedModeBanner: false,
-
+      theme: ThemeData.dark().copyWith(
+        scaffoldBackgroundColor: const Color(0xFF0F0F0F),
+        appBarTheme: const AppBarTheme(
+          backgroundColor: Color(0xFF0F0F0F),
+          elevation: 0,
+        ),
+      ),
       home: Mainscreen(),
     );
   }
